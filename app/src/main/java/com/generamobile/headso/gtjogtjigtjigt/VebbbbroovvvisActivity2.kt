@@ -42,9 +42,6 @@ class VebbbbroovvvisActivity2 : AppCompatActivity() {
 
         val vfgtgthyhyhyhy = hyjuujujuj.getString("link", null)
 
-        Log.d("lolo", "${vfgtgthyhyhyhy}")
-        Toast.makeText(this, "${vfgtgthyhyhyhy}", Toast.LENGTH_SHORT).show()
-
         hyujujuj.edit().putString("SAVED_URL", vfgtgthyhyhyhy).apply()
         return hyujujuj.getString("SAVED_URL", vfgtgthyhyhyhy).toString()
     }
