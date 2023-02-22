@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gaammee"
+    app:startDestination="@id/gaaamymyyyOneeeeFragment">
+
+    <fragment
+        android:id="@+id/gaaamymyyyOneeeeFragment"
+        android:name="com.generamobile.headso.gngjttngnjtg.GaaamymyyyOneeeeFragment"
+        android:label="fragment_gaaamymyyy_oneeee"
+        tools:layout="@layout/fragment_gaaamymyyy_oneeee" >
+        <action
+            android:id="@+id/action_gaaamymyyyOneeeeFragment_to_haaaammyyyTvooooFragment"
+            app:destination="@id/haaaammyyyTvooooFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/haaaammyyyTvooooFragment"
+        android:name="com.generamobile.headso.gngjttngnjtg.HaaaammyyyTvooooFragment"
+        android:label="fragment_haaaammyyy_tvoooo"
+        tools:layout="@layout/fragment_haaaammyyy_tvoooo" >
+        <action
+            android:id="@+id/action_haaaammyyyTvooooFragment_to_gaaaamyyyThreeeeFragment"
+            app:destination="@id/gaaaamyyyThreeeeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gaaaamyyyThreeeeFragment"
+        android:name="com.generamobile.headso.gngjttngnjtg.GaaaamyyyThreeeeFragment"
+        android:label="fragment_gaaaamyyy_threeee"
+        tools:layout="@layout/fragment_gaaaamyyy_threeee" >
+        <action
+            android:id="@+id/action_gaaaamyyyThreeeeFragment_to_gaaamymyyyOneeeeFragment"
+            app:destination="@id/gaaamymyyyOneeeeFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/gaaamymyyyOneeeeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
